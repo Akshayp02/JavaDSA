@@ -6,7 +6,7 @@ public class calc {
 
         int ans = 0;
         while(true){
-            // Take oparation
+            
             System.out.println("Enter operater :");
             char op = sc.next().trim().charAt(0);
             if(op =='+' || op == '-' || op == '*' || op == '/' || op == '%'){
